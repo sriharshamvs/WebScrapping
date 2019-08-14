@@ -24,7 +24,7 @@ def CheckUTLinkAndSave(UT, UT_constituency):
         f.writerow([link])
     print(UT, UT_constituency, page)
 
-for state in range(1, 27):
+for state in range(1, 30):
     if state == 24:
         for constituency in range(1,81):
             CheckStateLinkAndSave(str(state), str(constituency))
